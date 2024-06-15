@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employees</title>
+</head>
+<body>
+    <ul id="list">
+        <script>
+            const list = document.getElementById('list')
+            fetch('http://localhost/8000/api/employee')
+                .then(rsp=>rsp.json())
+                .then(data=>{
+                    console.log()
+                })
+        </script>
+    </ul>
+</body>
+</html>
