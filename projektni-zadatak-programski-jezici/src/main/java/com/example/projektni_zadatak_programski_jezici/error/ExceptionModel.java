@@ -1,4 +1,4 @@
-package com.example.projektni_zadatak_programski_jezici;
+package com.example.projektni_zadatak_programski_jezici.error;
 
 
 import lombok.Getter;

@@ -1,7 +1,6 @@
-package com.example.projektni_zadatak_programski_jezici;
+package com.example.projektni_zadatak_programski_jezici.error;
 
 import jakarta.servlet.http.HttpServletRequest;
-import org.springframework.http.HttpRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.*;

@@ -1,4 +1,4 @@
-package com.example.projektni_zadatak_programski_jezici;
+package com.example.projektni_zadatak_programski_jezici.entity;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -25,7 +25,7 @@ public class Employee {
     private String surname;
 
     @Column(nullable = false, unique = true)
-    private String contact_info;
+    private String contact;
 
     @Column(nullable = false)
     private LocalDateTime createdAt = LocalDateTime.now();
